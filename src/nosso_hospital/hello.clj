@@ -1,4 +1,7 @@
 (ns nosso-hospital.hello)
 
-(println "hello Git!")
-(println "goodbye world")
+(defn commitando []
+ (println "hello Git!")
+ (println "goodbye world"))
+
+(commitando)
